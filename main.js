@@ -23,8 +23,6 @@ function draw() {
     ctx.arc(120, 90, 10, 2 * Math.PI, false)
     ctx.fillStyle = "white";
     ctx.fill();
-
-    setEyes();
 }
 
 function setEyes() {
@@ -45,6 +43,3 @@ function setEyes() {
     ctx.fillStyle = "black";
     ctx.fill();
 }
-
-
-
